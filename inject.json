@@ -1,0 +1,15 @@
+{
+    "Declipsonator/Troll-Addon": {
+        "summary": "No rat is present in this build.",
+        "authors": [ "Declipsonator" ]
+    },
+    "cally72jhb/vector-addon": {
+        "icon": "https://user-images.githubusercontent.com/18114966/159967693-d42e1b63-2fb2-4261-9913-9c1b95c43f69.png"
+    },
+    "AntiCope/reaper-addon": {
+        "icon": "https://raw.githubusercontent.com/AntiCope/reaper-addon/main/src/main/resources/assets/reaper/icon.png"
+    }, 
+    "DAMcraft/MeteorServerSeeker": {
+        "mc_version": "1.20.2 - 1.20.4"
+    }
+}
