@@ -1,0 +1,40 @@
+name: Addon verification
+description: A request your Meteor Client addon to be added to MeteorAddons.md
+title: "Addon Verification"
+labels: [addon]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Addon name
+      placeholder: dupe-meteor-addon
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: An addon for the dupe
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      placeholder: github.com/MeteorDevelopment/meteor-client
+      description: Any relevant links to your addon. Eg. repository
+  - type: input
+    id: icon
+    attributes:
+      label: Addon icon url
+      placeholder: github.com/MeteorDevelopment/meteor-addon-template/blob/main/src/main/resources/assets/template/icon.png
+      description: Preferably the same icon used in fabric.mod.json
+  - type: textarea
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: Me
+  - type: checkboxes
+    id: is-open-source
+    attributes:
+      label: Is your addon open-source?
+      description: Check if code for your addon is avaliable on GitHub or any site
+      options:
+        - label: Open-source
+          required: false
