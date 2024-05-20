@@ -8,8 +8,5 @@
     },
     "AntiCope/reaper-addon": {
         "icon": "https://raw.githubusercontent.com/AntiCope/reaper-addon/main/src/main/resources/assets/reaper/icon.png"
-    }, 
-    "DAMcraft/MeteorServerSeeker": {
-        "mc_version": "1.20.2 - 1.20.4"
     }
 }
