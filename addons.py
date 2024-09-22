@@ -51,7 +51,7 @@ while incomplete:
                 repo = file['repository']
                 if not repo['private']:
                     repos.add(repo['full_name'])
-            incomplete = r["incomplete_results"]
+            incomplete = len(r["items"]) != 0
             break
         except Exception:
             print("[search fetch] error. ignoring...")
@@ -78,7 +78,7 @@ while incomplete:
                 repo = file['repository']
                 if not repo['private']:
                     repos.add(repo['full_name'])
-            incomplete = r["incomplete_results"]
+            incomplete = len(r["items"]) != 0
             break
         except Exception:
             print("[search fetch] error. ignoring...")
