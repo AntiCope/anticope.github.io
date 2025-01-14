@@ -22,8 +22,6 @@ import Icon from '../Icon'
 
 import './AddonModal.sass';
 
-import UNKNOWN_ICON from "../../images/unknown_icon.png"
-
 function formatStrings(strings) {
     if (strings.length === 0) return "";
     else if (strings.length === 1) return strings[0]
@@ -111,7 +109,7 @@ function AddonModal({ addon, onHide }) {
         }
         <div className="Line appear centered">
             { typeof addon.links.download === "undefined" &&
-                <a href={addon.links.github}>
+                <a href={addon.links.github} target="_blank">
                     <Button>
                         <FaGithub style={{ marginRight: '0.6rem' }} />
                         Repository

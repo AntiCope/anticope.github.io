@@ -10,8 +10,6 @@ import {
 } from "react-icons/fa";
 import { Modal } from "react-overlays";
 import AddonModal from "../AddonModal/AddonModal";
-import { getImageProxyUrl } from "../../utils";
-
 import './AddonCard.sass';
 
 function BackDrop(props) {
